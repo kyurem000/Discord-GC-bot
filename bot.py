@@ -1,8 +1,7 @@
 import discord
+import os
 
 client = discord.Client()
-# 토큰
-token = "NzE3NDcwNzk1NzkzOTU2OTE1.Xtay7A.l3JrYnlnmGoTR0XoLKAEn9n7AT8"
 
 # 준비
 @client.event
@@ -21,5 +20,6 @@ async def on_message(message):
         await message.channel.send("헬 로우")
 
 
+access_token = os.environ["BOT_TOKEN"]
 # 토큰 보내기
-client.run(token)
+client.run(access_token)
