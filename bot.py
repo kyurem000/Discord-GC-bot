@@ -17,7 +17,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith("!안녕"):
-        await message.channel.send("헬 로우")
+        await message.channel.send("헬로우")
 
 # 토큰 보내기
-client.run(NzE3NDcwNzk1NzkzOTU2OTE1.XtbMwA.ibdtq2YkFqdKptC5LZsOvn4iCpk)
+client.run("NzE3NDcwNzk1NzkzOTU2OTE1.XtbMwA.ibdtq2YkFqdKptC5LZsOvn4iCpk")
