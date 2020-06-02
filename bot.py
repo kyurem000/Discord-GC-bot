@@ -19,4 +19,4 @@ async def on_message(message):
     if message.content.startswith("!뭐해"):
         await message.channel.send("일해")
 # 토큰 보내기
-client.run("NzE3NDcwNzk1NzkzOTU2OTE1.XtbMwA.ibdtq2YkFqdKptC5LZsOvn4iCpk")
+client.run("NzE3NDcwNzk1NzkzOTU2OTE1.XtbcjA.IIfSHT3IwViHXpn0nXOLYYD9AVc")
