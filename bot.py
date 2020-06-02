@@ -1,5 +1,5 @@
 import discord
-import os
+
 
 client = discord.Client()
 
@@ -19,7 +19,5 @@ async def on_message(message):
     if message.content.startswith("!안녕"):
         await message.channel.send("헬 로우")
 
-
-access_token = os.environ["BOT_TOKEN"]
 # 토큰 보내기
-client.run(access_token)
+client.run(NzE3NDcwNzk1NzkzOTU2OTE1.XtbMwA.ibdtq2YkFqdKptC5LZsOvn4iCpk)
