@@ -76,4 +76,4 @@ async def on_message(message):
         await client.process_commands(message)
 
 # 토큰 보내기
-client.run("NzE3NDcwNzk1NzkzOTU2OTE1.Xt8ddA.w7r7gpNWWmInPBS02vKswkWSxeU")
+client.run(token)
