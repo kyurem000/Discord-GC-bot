@@ -1,6 +1,7 @@
 #모듈
 import asyncio
 import discord
+import os
 from discord.ext import commands
 
 client = discord.Client()
@@ -76,4 +77,5 @@ async def on_message(message):
         await client.process_commands(message)
 
 # 토큰 보내기
-client.run(token)
+access_token = os.eviron["bot_token"]
+client.run(access_token)
